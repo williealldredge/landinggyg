@@ -1,0 +1,105 @@
+head {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 0px 150px ;
+}
+
+.logo {
+   width: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 0 20px;
+    list-style: none;
+    color: #f9faf8;
+}
+
+.main {
+    display: flex;
+    background: #1f2937;
+    padding: 50px;
+    justify-content: space-between;
+    padding: 50px 150px 
+}
+
+h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.mainleft {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    justify-content: center;
+}
+.main p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.topbutton {
+    width: 75px;
+    background: #3882f6;
+    border-radius: 18px;
+}
+
+.farm {
+    width: 400px;
+    height: 300px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cropphoto {
+    display: flex;
+    gap: 30px;
+}
+
+.cropphoto div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+.info img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    
+}
+
+.quote {
+    background:#e5e7eb;
+    padding: 50px 150px;
+    font-size: 36px;
+    font-style: italic;
+}
+.quote div {
+    text-align: end;
+}
+
+
