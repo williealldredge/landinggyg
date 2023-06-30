@@ -24,8 +24,7 @@ ul {
 .main {
     display: flex;
     background: #1f2937;
-    padding: 50px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px 150px 
 }
 
@@ -48,8 +47,9 @@ h2 {
     font-size: 18px;
 }
 
-.topbutton {
+button {
     width: 75px;
+    height: 20px;
     background: #3882f6;
     border-radius: 18px;
 }
@@ -102,4 +102,29 @@ h3 {
     text-align: end;
 }
 
+.footer {
+    display: flex;
+    background: #3882f6;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 150px;
+    border-radius: 10px;
+}
 
+.footer div {
+    
+    padding: 30px;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footsecond {
+    font-size: smaller;
+}
+.footer button {
+    color: white;
+    border-color: white;
+}
